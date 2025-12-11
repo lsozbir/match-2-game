@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4632979867080504981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 181456476791719052}
+  - component: {fileID: -4654303023257533714}
+  m_Layer: 0
+  m_Name: Cube Factory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &181456476791719052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4632979867080504981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-4654303023257533714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4632979867080504981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed4c611978654b219312ac1ea0e66900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redCubePrefab: {fileID: 299585583752465182, guid: 242425ec67ee7014ab050f01033ae656, type: 3}
+  blueCubePrefab: {fileID: 1209618817093894902, guid: 25dc911129e85694cba33a73c97f3074, type: 3}
+  greenCubePrefab: {fileID: 3755216803359810079, guid: 8a2e086eed882bd429d7d3f7257c28c1, type: 3}
+  yellowCubePrefab: {fileID: 4644746835075318299, guid: fa163be182067bf47b06b5cd783fa430, type: 3}
+  purpleCubePrefab: {fileID: 5511553058582300220, guid: 8ac26f5f4dc8a2b4aac243a65d1660f7, type: 3}
+  duckCubePrefab: {fileID: 9148859418028796157, guid: c0b090459ec01d44b94322201b504b5f, type: 3}
+  balloonCubePrefab: {fileID: 4279579771834102532, guid: 8eb0b79f1b98772448a41c3e685205b1, type: 3}
+  verticalRocketCubePrefab: {fileID: 4279579771834102532, guid: 640894a1c74d5dc4c821e2a5079465e0, type: 3}
+  horizontalRocketCubePrefab: {fileID: 4279579771834102532, guid: 4abe06e6c424ce644a2dd2fb418f31c4, type: 3}
